@@ -5,12 +5,12 @@ import (
 )
 
 func main() {
-	a := `here is something
+	a := "here is something
 	as 
 	a 
 	raw string
 	literal
 	"you see"
-	another thing`
+	another thing"
 	fmt.Println(a)
 }
